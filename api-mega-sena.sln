@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-mega-sena", "api-mega-sena\api-mega-sena.csproj", "{AE9CA793-FAB9-4995-A211-1007540F3100}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api-mega-sena", "api-mega-sena\api-mega-sena.csproj", "{AE9CA793-FAB9-4995-A211-1007540F3100}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-mega-sena.Testes", "api-mega-sena.Testes\api-mega-sena.Testes.csproj", "{A70480B8-98EA-4A47-A181-A70CFC1EF976}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{AE9CA793-FAB9-4995-A211-1007540F3100}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE9CA793-FAB9-4995-A211-1007540F3100}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE9CA793-FAB9-4995-A211-1007540F3100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A70480B8-98EA-4A47-A181-A70CFC1EF976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A70480B8-98EA-4A47-A181-A70CFC1EF976}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A70480B8-98EA-4A47-A181-A70CFC1EF976}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A70480B8-98EA-4A47-A181-A70CFC1EF976}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

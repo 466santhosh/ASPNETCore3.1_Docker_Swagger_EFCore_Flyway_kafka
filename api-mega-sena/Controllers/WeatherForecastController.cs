@@ -23,6 +23,14 @@ namespace api_mega_sena.Controllers
             _logger = logger;
         }
 
+
+        /// <summary>
+        /// Transforma uma temperatura em Fahrenheit para o equivalente
+        /// nas escalas Celsius e Kelvin.
+        /// </summary>
+        /// <param name="temperatura">Temperatura em Fahrenheit</param>
+        /// <returns>Objeto contendo valores para uma temperatura
+        /// nas escalas Fahrenheit, Celsius e Kelvin.</returns>
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
