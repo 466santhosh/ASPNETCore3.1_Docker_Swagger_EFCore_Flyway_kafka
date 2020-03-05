@@ -4,6 +4,25 @@
         <name>api-mega-sena</name>
     </assembly>
     <members>
+        <member name="F:api_mega_sena.Controllers.ProductsController._productsDbContext">
+            <summary>The products database context</summary>  
+        </member>
+        <member name="M:api_mega_sena.Controllers.ProductsController.GetProduct">
+            <summary>Gets the product.</summary>
+            <returns>Task&lt;ActionResult&lt;IEnumerable&lt;Product&gt;&gt;&gt;.</returns>
+            <remarks> GET api/values</remarks>
+        </member>
+        <member name="M:api_mega_sena.Controllers.ProductsController.Create(api_mega_sena.Entities.Product)">
+            <summary>Creates the specified product.</summary>
+            <param name="product">The product.</param>
+            <returns>Task&lt;ActionResult&lt;Product&gt;&gt;.</returns>
+        </member>
+        <member name="M:api_mega_sena.Controllers.ProductsController.Update(System.Int32,api_mega_sena.Entities.Product)">
+            <summary>Updates the specified identifier.</summary>
+            <param name="id">The identifier.</param>
+            <param name="productFromJson">The product from json.</param>
+            <returns>Task&lt;ActionResult&lt;Product&gt;&gt;.</returns>
+        </member>
         <member name="M:api_mega_sena.Controllers.WeatherForecastController.Get">
             <summary>
             Transforma uma temperatura em Fahrenheit para o equivalente
@@ -12,6 +31,36 @@
             <param name="temperatura">Temperatura em Fahrenheit</param>
             <returns>Objeto contendo valores para uma temperatura
             nas escalas Fahrenheit, Celsius e Kelvin.</returns>
+        </member>
+        <member name="P:api_mega_sena.Entities.MegaSenaContext.Products">
+            <summary>  
+            Gets or sets the products.  
+            </summary>  
+            <value>The products.</value>  
+        </member>
+        <member name="P:api_mega_sena.Entities.Product.Id">
+            <summary>  
+            Gets or sets the identifier.  
+            </summary>  
+            <value>The identifier.</value>  
+        </member>
+        <member name="P:api_mega_sena.Entities.Product.Name">
+            <summary>  
+            Gets or sets the name.  
+            </summary>  
+            <value>The name.</value>  
+        </member>
+        <member name="P:api_mega_sena.Entities.Product.Price">
+            <summary>  
+            Gets or sets the price.  
+            </summary>  
+            <value>The price.</value>  
+        </member>
+        <member name="P:api_mega_sena.Entities.Product.Description">
+            <summary>  
+            Gets or sets the description.  
+            </summary>  
+            <value>The description.</value>  
         </member>
     </members>
 </doc>

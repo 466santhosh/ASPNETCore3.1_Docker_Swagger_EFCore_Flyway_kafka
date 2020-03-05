@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api-mega-sena", "api-mega-sena\api-mega-sena.csproj", "{AE9CA793-FAB9-4995-A211-1007540F3100}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-mega-sena.Testes", "api-mega-sena.Testes\api-mega-sena.Testes.csproj", "{A70480B8-98EA-4A47-A181-A70CFC1EF976}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api-mega-sena.Testes", "api-mega-sena.Testes\api-mega-sena.Testes.csproj", "{A70480B8-98EA-4A47-A181-A70CFC1EF976}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{F445ADB9-731E-4CB8-A90E-0F320F9E81FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A70480B8-98EA-4A47-A181-A70CFC1EF976}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A70480B8-98EA-4A47-A181-A70CFC1EF976}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A70480B8-98EA-4A47-A181-A70CFC1EF976}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F445ADB9-731E-4CB8-A90E-0F320F9E81FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F445ADB9-731E-4CB8-A90E-0F320F9E81FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F445ADB9-731E-4CB8-A90E-0F320F9E81FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F445ADB9-731E-4CB8-A90E-0F320F9E81FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
